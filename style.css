@@ -1,0 +1,84 @@
+.sidebar{
+    /* background-color: red; */
+    background-color: rgb(198, 174, 174);
+    width:12vw;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    /* background-color: yellow; */
+    width:85vw;
+}
+.container{
+    display:flex;
+  
+}
+
+
+.sidebar nav{
+    padding:45px;
+}
+
+.sidebar nav li{
+    list-style:none;
+    font-size:20px;
+    padding:30px 0px 30px 0px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+  
+}
+.info-container{
+    /* background-color:orange; */
+    height:68vh;
+    width:80vw;
+    margin:120px auto;
+    display:flex;
+    align-items: center;
+}
+.dev-pic img{
+    height:58vh;
+    width:58vh;
+    margin-top: 76px;
+    padding-left:300px;
+    
+}
+.dev-info{
+    display: flex;
+    justify-content: center;
+    padding-left:200px;
+    flex-direction:column;
+    font-family: "Noto Sans", sans-serif;
+}
+.hello{
+font-size: 65px;
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.about{
+    font-size:40px;
+}
+.buttons button{
+    padding:5px;
+    border-radius: 1rem;
+    margin:5px;
+    cursor:pointer;
+    
+ 
+}
+.buttons{
+    padding-top: 20px;
+    
+}
+.buttons button:hover{
+    background-color: rgb(9, 1, 1);
+    color:white;
+}
